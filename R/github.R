@@ -1,3 +1,23 @@
+
+source("install.r")
+source("install-remote.R")
+source("deps.R")
+source("package-deps.r")
+source("utils.r")
+source("cran.r")
+source("R.r")
+source("rtools.r")
+source("with.r")
+source("system.r")
+source("reload.r")
+source("package-env.r")
+source("has-devel.r")
+source("package.R")
+source("decompress.R")
+
+
+
+
 github_auth <- function(token) {
   if (is.null(token)) {
     NULL
